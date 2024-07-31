@@ -239,6 +239,7 @@ body {
 
   /* ================== HEADER ========================== */
 
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -350,7 +351,9 @@ height: 1000px;}
       text-align: center;
       transition: all .5s;
       z-index: 2000;
+
     }
+    
   
     .header__li {
       display: block !important;
@@ -378,7 +381,7 @@ width: 48px;}
   /* ===============CARDS ===================== */
 
 
-  body {
+body{
     overflow-x: hidden;
   }
 
@@ -452,7 +455,7 @@ gap: 2rem;}
 
 
                 @media only screen and (max-width: 800px) {
-                  .one__cont {
+                  .proj__card {
                         grid-template-columns: repeat(1, 3fr);
                     }
                 }           
@@ -584,9 +587,10 @@ gap: 2rem;}
      border-radius: 25px;
      cursor: pointer;
      background-color: 0.3s;
-     border-color:#1aaca2;
+     border-color: #1aaca2; 
 
  }
+ 
 
  .filters button:hover {
      background: #1e90ff;
@@ -1249,3 +1253,5 @@ gap: 2rem;}
 grid-template-columns: repeat(1 ,3fr);}
 .proj__card {width: 100%; height: 100%; 
 }; }
+
+
